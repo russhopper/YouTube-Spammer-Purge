@@ -94,7 +94,7 @@ if not os.path.exists(CLIENT_SECRETS_FILE):
   print(" ---------- https://github.com/ThioJoe/YouTube-Spammer-Purge/ ---------- ")
   input("\n Press Enter to Exit...")
   exit()
-
+ 
 # This OAuth 2.0 access scope allows for full read/write access to the
 # authenticated user's account and requires requests to use an SSL connection.
 YOUTUBE_READ_WRITE_SSL_SCOPE = ['https://www.googleapis.com/auth/youtube.force-ssl']
